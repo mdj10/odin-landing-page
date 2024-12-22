@@ -14,7 +14,7 @@ body {
 
 /* header */
 
-.header {
+.header-container {
     background-color: #1F2937;
     display: flex;
     padding: 30px 60px;
@@ -58,7 +58,7 @@ body {
 
 .header-links a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #e5e7eb;
     font-size: 18px;
 }
 
@@ -69,4 +69,12 @@ a:hover {
 
 /* header */
 
-/* CHECK HEADER TO MAKE SURE DESIGN CORRECT (LINKS Are Proper Gray) THEN CONTINUE */
+/* intro */
+
+.intro-container {
+    display: flex;
+    padding: 60px 60px;
+    background-color: #1F2937;
+}
+
+/* intro */
