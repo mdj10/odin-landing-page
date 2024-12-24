@@ -127,7 +127,35 @@ a:hover {
     display: flex;
     flex-direction: column;
     padding: 20px 100px;
+    gap: 20px;
+    border: 2px solid red;
 }
 
+.information-header {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.information-image-container {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+.image-box {
+    height: 20px;
+    border: 2px solid red;
+}
+
+.image-box-text {
+    margin-top: 2px;
+    border: 2px solid red;
+}
 
 /* information */
