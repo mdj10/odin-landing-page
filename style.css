@@ -17,10 +17,10 @@ body {
 .header-container {
     background-color: #1F2937;
     display: flex;
-    padding: 30px 60px;
+    padding: 30px 100px;
 }
 
-.header-logo {
+.header-logo-container {
     display: flex;
     flex: 1;
     gap: 10px;
@@ -32,8 +32,7 @@ body {
     color: #F9FAF8;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .header-image {
@@ -41,14 +40,14 @@ body {
     align-items: center;
 }
 
-.header-links {
+.header-links-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex: 1;
 }
 
-.header-links ul {
+.header-links-container ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -56,7 +55,7 @@ body {
     gap: 15px;
 }
 
-.header-links a {
+.header-links-container a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -73,8 +72,57 @@ a:hover {
 
 .intro-container {
     display: flex;
-    padding: 60px 60px;
+    padding: 60px 100px;
     background-color: #1F2937;
+    gap: 10px;
+}
+
+.intro-text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.intro-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro-sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 5px;
+}
+
+.intro-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: grab;
+}
+
+.intro-button:hover {
+    color: #3882F6;
+    background-color: white;
+}
+
+.intro-image-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 /* intro */
+
+/* information */
+
+
+
+/* information */
