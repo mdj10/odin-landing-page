@@ -127,7 +127,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     padding: 20px 100px;
-    gap: 20px;
+    gap: 40px;
 }
 
 .information-header {
@@ -141,7 +141,7 @@ a:hover {
 
 .information-image-container {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     padding: 5px;
     justify-content: center;
     align-items: center;
@@ -166,3 +166,39 @@ a:hover {
 }
 
 /* information */
+
+/* quote */
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.quote-information-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    flex: 1;
+}
+
+.quote-speaker {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+    flex: none;
+}
+
+/* quote */
