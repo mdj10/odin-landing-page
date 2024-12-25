@@ -74,7 +74,7 @@ a:hover {
     display: flex;
     padding: 60px 100px;
     background-color: #1F2937;
-    gap: 10px;
+    gap: 20px;
 }
 
 .intro-text-container {
@@ -117,6 +117,10 @@ a:hover {
     flex: 1;
     justify-content: center;
     align-items: center;
+}
+
+.intro-image-container img {
+    min-width: 250px;
 }
 
 /* intro */
