@@ -10,8 +10,6 @@ body {
     flex-direction: column;
 }
 
-/* body */
-
 /* header */
 
 .header-container {
@@ -65,8 +63,6 @@ a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
-
-/* header */
 
 /* intro */
 
@@ -125,8 +121,6 @@ a:hover {
     min-width: 250px;
 }
 
-/* intro */
-
 /* information */
 
 .information-container {
@@ -171,8 +165,6 @@ a:hover {
     margin-top: 4px;
 }
 
-/* information */
-
 /* quote */
 
 .quote-container {
@@ -206,8 +198,6 @@ a:hover {
     justify-content: flex-end;
     flex: none;
 }
-
-/* quote */
 
 /* call to action */
 
@@ -259,8 +249,6 @@ a:hover {
     cursor: grab;
 }
 
-/* call to action */
-
 /* footer */
 
 .footer-container {
@@ -280,5 +268,3 @@ a:hover {
     padding: 0;
     margin: 0;
 }
-
-/* footer */
