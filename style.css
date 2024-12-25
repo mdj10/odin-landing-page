@@ -75,6 +75,7 @@ a:hover {
     padding: 60px 100px;
     background-color: #1F2937;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .intro-text-container {
@@ -95,7 +96,7 @@ a:hover {
     margin-top: 5px;
 }
 
-.intro-button {
+.intro-button{
     background-color: #3882F6;
     color: white;
     font-weight: bold;
@@ -107,7 +108,7 @@ a:hover {
     cursor: grab;
 }
 
-.intro-button:hover {
+.intro-button:hover, .call-to-action-button:hover {
     color: #3882F6;
     background-color: white;
 }
@@ -179,7 +180,7 @@ a:hover {
     padding: 20px 100px;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 300px;
 }
 
 .quote-information-container {
@@ -209,6 +210,52 @@ a:hover {
 
 /* call to action */
 
+.call-to-action-container {
+    display: flex;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex: auto;
+}
 
+.call-to-action {
+    width: 600px;
+    padding: 40px 75px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center; gap: 100px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call-to-action-text-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action-text-sub {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    width: 138px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: grab;
+}
 
 /* call to action */
