@@ -181,7 +181,7 @@ a:hover {
 .quote-information-container {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 5px;
 }
 
 .quote {
@@ -202,3 +202,9 @@ a:hover {
 }
 
 /* quote */
+
+/* call to action */
+
+
+
+/* call to action */
