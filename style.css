@@ -74,7 +74,7 @@ a:hover {
     display: flex;
     padding: 60px 100px;
     background-color: #1F2937;
-    gap: 20px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -82,6 +82,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex: 1;
+    max-width: 600px;
 }
 
 .intro-main-text {
@@ -262,6 +263,22 @@ a:hover {
 
 /* footer */
 
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+}
 
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
 
 /* footer */
