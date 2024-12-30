@@ -149,7 +149,6 @@ a:hover {
 }
 
 .image-box {
-    height: 20px;
     height: 150px;
     width: 150px;
     border: 4px solid #3882F6;
@@ -207,6 +206,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 300px;
+    overflow: hidden;
     flex: auto;
 }
 
@@ -217,7 +217,9 @@ a:hover {
     background-color: #3882F6;
     border-radius: 5px;
     justify-content: center;
-    align-items: center; gap: 100px;
+    align-items: center; 
+    flex: auto;
+    gap: 50px;
 }
 
 .call-to-action-text {
@@ -238,6 +240,12 @@ a:hover {
     font-weight: lighter;
 }
 
+.call-to-action-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .call-to-action-button {
     background-color: #3882F6;
     color: white;
@@ -256,7 +264,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 100px;
+    padding: 15px 100px;
 }
 
 .footer-text {
